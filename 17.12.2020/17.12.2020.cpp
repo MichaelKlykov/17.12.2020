@@ -2,8 +2,18 @@
 //
 
 #include "pch.h"
+#include <vector>
+#include <string>
 #include <iostream>
+#include <fstream>
+#include <random>
+#include <functional>
+#include <iterator>
+#include <algorithm>
+#include <numeric>
 
+using namespace std;
+using namespace std::placeholders;
 int main()
 {
     std::cout << "Hello World!\n"; 
